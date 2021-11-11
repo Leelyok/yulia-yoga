@@ -171,6 +171,10 @@ footer p {
     display:inline-block;
     padding: 0.5rem;
   }
+
+.flex-flip:nth-child(2n){  
+    flex-direction: row-reverse; 
+}
   
               
             
