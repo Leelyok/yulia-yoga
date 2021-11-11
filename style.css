@@ -28,6 +28,7 @@ img { max-width: 100%;}
 
 
 .bg-light    { background-color: #F8F6F4;}
+.bg-beige    { background-color: #e6d9d0;}
 .bg-featured { background-color: #018ca2;  }
 .bg-dark     { background-color: #24282B;  }
 
@@ -133,6 +134,21 @@ footer p {
     background-position: center;
     background-image: url('/images/budda.jpg');
 }
+.bg-basic {
+    background-color: rgb(235,235,235);
+    background-size: cover;
+    background-position: center;
+    min-height: 12rem;
+}
+
+
+.bg-yoga {
+    background-image:url('/images/yoga-girl.jpg');
+  }
+  
+  .bg-healing {
+    background-image:url('/images/healing.jpg');
+  }
 
 
 .shape-teardrop {
@@ -149,7 +165,15 @@ footer p {
     border-top: 1px solid #707070;
     border-bottom: 1px solid #707070;
 }
-
+          
+              
+.inline a {
+    display:inline-block;
+    padding: 0.5rem;
+  }
+  
+              
+            
 
 /*@media (max-width: 36em)	Max 576px	_xs-*
 @media (max-width: 48em)	Max 768px	_sm-*
