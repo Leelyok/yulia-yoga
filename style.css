@@ -171,6 +171,8 @@ nav a {
   padding: 3%;
 }
 
+/*  Footer and Header  */
+
 header {
   padding: 1% 5% 0 5%;
   font-family: 'Montserrat', sans-serif;
@@ -186,6 +188,58 @@ header img {
 footer a:hover {
   background-color: #ffffff;
 }
+
+/*  Mobile Menu Styles  */
+
+.mobile-menu {
+  display: none; 
+  background-color: #f2f2f0; 
+  padding: 5%;
+  position: fixed; 
+  top:0;
+  bottom: 0;
+  left:0;
+  right:0;
+  text-align: center;
+  z-index: 3;
+}
+
+.mobile-menu a {
+  text-decoration: none; 
+  color: inherit; 
+  padding: 5vh 5%;
+  display: block;
+  font-weight: normal;
+  font-size: 1.5rem;
+ }
+ 
+ .hamburger-button {
+    cursor: pointer;
+    padding: 0.5rem;
+    display: inline-block;
+    font-weight: 200;
+    font-size: 3rem;
+    line-height: 0.8;
+    position: fixed;
+    right: 1rem;
+    top: 0rem;
+    z-index: 4;
+ }
+ 
+ .hamburger-button i {
+    font-size: 2.2rem;
+    margin-bottom: 0;
+ }
+
+.hamburger-button.active {
+    color: #9d614c;
+  }
+
+.inline a p {
+    display: block;
+    padding: 0.6rem;
+}
+
 
 .contact:hover {
     background-color: white;
@@ -445,13 +499,28 @@ form .button {
 
 
               
-            
+/* General CSS Responsive Styles (Apply everywhere unless overridden) */ 
+
+.show-xs, 
+.show-sm,
+.show-md,
+.mobile-menu {
+	display: none;
+}
+
 
 /*@media (max-width: 36em)	Max 576px	_xs-*
 @media (max-width: 48em)	Max 768px	_sm-*
 @media (max-width: 64em)	Max 1024px	_md-*
 @media (max-width: 80em)	Max 1280px	_lg-*  */
 
+@media (max-width: 64em) {
+  .show-md { display: block; }
+  .hide-md { display: none;  }
+  
+  .md-tall-80 {  min-height: 80vh;}
+  h1 { font-size: 2.5rem;}
+}
 
 /*  Gridlex small media query - Max 768 px _sm*/
 @media(max-width: 48em)	{
