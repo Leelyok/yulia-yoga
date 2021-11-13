@@ -364,6 +364,10 @@ li {
 .flex-flip:nth-child(2n){  
     flex-direction: row-reverse; 
 }
+
+[class*="_sm-12"] > [class*="col-"], [class*="_sm-12"] > [class*="col_"], [class*="_sm-12"] > [class~="col"] {
+  max-width: 100%;
+}
   
 /*  Contact form */
 
@@ -518,7 +522,10 @@ form .button {
   .show-md { display: block; }
   .hide-md { display: none;  }
   
-  .md-tall-80 {  min-height: 80vh;}
+  .md-tall-70 {  
+    min-height: 70vh;
+    max-width: 65%;
+  }
   h1 { font-size: 2.5rem;}
 }
 
@@ -528,6 +535,16 @@ form .button {
     .text-xl { font-size: 3.5rem;}
     .sm-block { display: block;}
     .text-center-sm { text-align: center;}
+    .text-sm { font-size: 1.5rem;  }
+    .margin-t-neg { margin-top: 0;}
+    h3 { font-size: 1.5rem;}
+    p {
+      line-height: 1.2;
+      font-size: 1rem; }
+
+    header img {   max-width: 65%;}
+    .sm-tall-70 {  
+      min-height: 70vh;}
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/
@@ -535,6 +552,7 @@ form .button {
     .text-xxl { font-size: 4rem;}
     .text-xl { font-size: 2.5rem;}
     .text-lg { font-size: 2.5rem;}
+    .text-sm { font-size: 1rem;  }
 
     .slider-item p { font-size: 1.1rem  }
 }
