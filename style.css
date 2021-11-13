@@ -39,7 +39,7 @@ img { max-width: 100%;}
 .margin-3 { margin: 3rem;}
 
 
-.bg-light    { background-color: #F8F6F4;}
+.bg-light    { background-color: #f3eeea;}
 .bg-beige    { background-color: #e6d9d0;}
 .bg-featured { background-color: #018ca2;  }
 .bg-dark     { background-color: #24282B;  }
@@ -56,6 +56,10 @@ img { max-width: 100%;}
 .flex {
   display: flex;
   align-items: center;
+}
+
+.moon-set img {
+  max-width: 50%;
 }
 
 
@@ -185,6 +189,10 @@ footer p {
 .bg-yoga {
     background-image:url('/images/yoga-girl.jpg');
   }
+
+.bg-lotus {
+  background-image:url('/images/instinct-lotus.jpeg');
+}
 
 .bg-moun {
   background-image: url('/images/instinct-moun.jpeg');
