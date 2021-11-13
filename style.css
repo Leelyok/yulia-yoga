@@ -15,7 +15,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 img { max-width: 100%;}
 
 .small-img img {
-  max-width: 30%;
+  max-width: 20%;
 }
 .mid-img img {
   max-width: 40%;
@@ -108,7 +108,10 @@ p {
 }
 
 ul {margin-left: 1rem;}
-li {padding-left: 0.5rem;}
+li {
+  padding-left: 0.5rem;
+  line-height: 1.1;
+}
 
 h1:last-child,
 h2:last-child,
@@ -140,7 +143,9 @@ a {
 }
 
 a:hover {
-    background-color: lavenderblush;
+  background-color: #fdeff0;
+  color: #b19590;
+  border: none;
 }
 
 nav a {
@@ -166,11 +171,12 @@ header img {
 
 .button {
     color: inherit;
-    border: 1px solid #f59186;
-    border-radius: 2rem;
+    border-radius: 1rem;
     text-decoration: none;
-    padding: 0.5rem 1.5rem;
     display: inline-block;
+    padding: 1rem 2rem;
+    border: 1px solid;
+    transition: all 0.1s;
 }
 
 
