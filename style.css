@@ -33,6 +33,7 @@ img { max-width: 100%;}
 
 
 .padded    { padding: 5%;    }
+.padded-0   { padding: 0;    }
 .padded-5  { padding: 5rem;}
 .padded-2p  {padding: 2%;   }
 
@@ -89,7 +90,8 @@ body {
 }
 
 h1 {
-  font-family: Didot,Georgia,serif;
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-transform: uppercase;
   font-weight: 400;
 }
 
@@ -136,7 +138,7 @@ p:last-child {
 .text-bold { font-weight: bold;}
 
 .text-xs   {  font-size: 1rem;}
-.text-sm   {  font-size: 2.5rem;}
+.text-sm   {  font-size: 2rem;}
 
 .text-lato {
     font-family: 'Lato', sans-serif;
@@ -198,7 +200,6 @@ footer {
     padding-left: 2%;
     padding-right: 2%;
     color: rgb(145, 140, 140);
-    font-family: 'Lato', sans-serif;
     font-weight: 300;
     box-sizing: inline;
 }
