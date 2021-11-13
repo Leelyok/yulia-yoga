@@ -14,7 +14,7 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 img { max-width: 100%;}
 
-section img { max-width: 70%;}
+section img { max-width: 60%;}
 
 /* Re-usable Utiity Classes  */
 
@@ -209,7 +209,7 @@ li {
   background-size: cover;
   background-position: 50% 22%;
   max-width: 100%;
-  margin: 9rem;
+  margin: 6rem;
 }
 
 .bg-lotus {
