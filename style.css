@@ -84,12 +84,17 @@ img { max-width: 100%;}
 /* General typography & universal styles  */
 
 body {
-    font-family: 'Baskervville', serif;
+    font-family: 'Jura', sans-serif;
     color: rgb(65,60,60);
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: 'Didot', serif;
+h1 {
+  font-family: Didot,Georgia,serif;
+  font-weight: 400;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
     line-height: 1;
     margin-bottom: 1rem;
     font-weight: normal;
@@ -106,6 +111,7 @@ p {
     line-height: 1.4;
     font-size: 1.1rem;
     margin-bottom: 0.8rem;
+    font-family: 'Jura', sans-serif;
 }
 
 ul {margin-left: 1rem;}
@@ -180,14 +186,21 @@ header img {
     transition: all 0.1s;
 }
 
+.button:hover {
+  background-color: #f3eeea;
+}
+
 
 /* Header & Footer */
 
 footer {
-    padding-bottom: 0.5rem;
+    padding-bottom: 0.2rem;
+    padding-left: 2%;
+    padding-right: 2%;
     color: rgb(145, 140, 140);
     font-family: 'Lato', sans-serif;
     font-weight: 300;
+    box-sizing: inline;
 }
 
 footer p {
