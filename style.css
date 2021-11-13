@@ -307,6 +307,88 @@ form .button {
    }
  }
 
+
+ /* text slider*/
+
+ .author {
+  font-size: 0.9rem;
+  color: rgb(90,90,90);
+  margin-top: 0.5rem;
+  margin-right: 2rem;
+  font-style: italic;
+  text-align: right;
+}
+
+.quote-icon {
+  font-size: 4rem;
+  color: rgb(200,200,200);
+}
+
+/*  Slider  */
+
+.testimonial-slider-container {
+  padding: 5%;
+  max-width: 900px;
+  margin: auto;
+}
+
+.slider-item {
+  padding: 1rem;
+  display: none;
+}
+
+.slider-item:first-child {
+  display: block;
+}
+
+
+
+.slick-next {
+  right: 10px;
+}
+
+.slick-prev {
+  left: 10px;
+}
+
+.slick-next::before, .slick-prev::before {
+  	font-family: inherit;
+  	font-size: 20px;
+  	line-height: 1;
+  	opacity: .75;
+  	color: rgb(90,90,90);
+}
+
+.slick-dots {
+  left:0;
+  bottom: 10px;
+}
+
+/* for centering*/
+
+.slick-dots li,
+.slick-dots li button {
+  width: 10px;
+}
+
+.slick-dots li button::before {
+  color: teal;
+}
+
+.slick-dots li.slick-active button::before {
+  color: red;
+}
+
+
+/* Slider Text Styles */
+
+.slider-item p {
+  text-align: justify;
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+}
+
+
               
             
 
@@ -329,6 +411,8 @@ form .button {
     .text-xxl { font-size: 4rem;}
     .text-xl { font-size: 2.5rem;}
     .text-lg { font-size: 2.5rem;}
+
+    .slider-item p { font-size: 1.1rem  }
 }
 
 /*  Gridlex XXS media query - Max 400 px _xxs*/
