@@ -160,7 +160,7 @@ nav a {
 }
 
 header {
-  padding: 1% 5%;
+  padding: 1% 5% 0 5%;
   font-family: 'Montserrat', sans-serif;
   text-transform: uppercase;
   font-weight: 500;
