@@ -34,7 +34,7 @@ img { max-width: 100%;}
 .bg-dark     { background-color: #24282B;  }
 
 .text-light { color: white; } 
-.text-featured { color: #f59186;}
+.text-featured { color: #f9d0a1;}
 .text-dark  {  color: #183039;}
 
 
@@ -165,6 +165,10 @@ footer p {
 .bg-yoga {
     background-image:url('/images/yoga-girl.jpg');
   }
+
+.bg-moun {
+  background-image: url('/images/instinct-moun.jpeg');
+}
   
   .bg-healing {
     background-image:url('/images/healing.jpg');
