@@ -14,7 +14,13 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 img { max-width: 100%;}
 
-section img { max-width: 60%;}
+.small-img img {
+  max-width: 30%;
+}
+.mid-img img {
+  max-width: 40%;
+}
+
 
 /* Re-usable Utiity Classes  */
 
@@ -45,6 +51,9 @@ section img { max-width: 60%;}
 .margin-1 { margin: 1rem;}
 .margin-2 { margin: 2rem;}
 .margin-3 { margin: 3rem;}
+
+.margin-t-neg { margin-top: -10rem;}
+.margin-l-neg { margin-left: -10rem;}
 
 
 .bg-light    { background-color: #f3eeea;}
@@ -214,6 +223,7 @@ li {
 
 .bg-lotus {
   background-image:url('/images/instinct-lotus.jpeg');
+  background-position: 50% 16%;
 }
 
 .bg-moun {
