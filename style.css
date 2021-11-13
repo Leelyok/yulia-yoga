@@ -2,6 +2,7 @@
 font-family: 'Jura', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Open Sans Condensed', sans-serif;
+font-family: 'Cuprum', sans-serif;
  */
 
 
@@ -20,6 +21,8 @@ img { max-width: 100%;}
 .mid-img img {
   max-width: 40%;
 }
+
+
 
 
 /* Re-usable Utiity Classes  */
@@ -41,6 +44,9 @@ img { max-width: 100%;}
   padding-top: 5%;
   padding-bottom: 5%;
 }
+.padded-t {
+  padding-top: 5%;
+}
 
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
@@ -53,8 +59,9 @@ img { max-width: 100%;}
 .margin-2 { margin: 2rem;}
 .margin-3 { margin: 3rem;}
 
-.margin-t-neg { margin-top: -10rem;}
+.margin-t-neg { margin-top: -13rem;}
 .margin-t20-neg { margin-top: -20rem;}
+.margin-b20-neg { margin-bottom: -20rem;}
 .margin-l-neg { margin-left: -10rem;}
 
 
@@ -87,6 +94,7 @@ img { max-width: 100%;}
 body {
     font-family: 'Jura', sans-serif;
     color: rgb(65,60,60);
+    scroll-behavior: smooth;
 }
 
 h1 {
@@ -173,6 +181,10 @@ header img {
   max-width: 25%;
 }
 
+footer a:hover {
+  background-color: #ffffff;
+}
+
 .contact:hover {
     background-color: white;
 }
@@ -206,6 +218,12 @@ footer {
 
 footer p {
     font-size: 0.8rem;
+}
+
+.small-footer {
+  font-size: .6rem;
+  font-weight: 200;
+  letter-spacing: .05rem;
 }
 
 li {
@@ -295,7 +313,7 @@ li {
 
 input {
   border-style: solid;
-  border: 2px solid rgb(200, 200, 205);
+  border: 1px solid rgb(200, 200, 205);
   padding: 0.8em;
   display: block;
   width: 100%;
@@ -305,7 +323,7 @@ input {
 input:focus,
 textarea:focus {
   outline: none;
-  border: 2px solid #e67e22;
+  border: 2px solid #f9d0a1;
   /* featured color */
 }
 
@@ -359,6 +377,7 @@ form .button {
 .quote-icon {
   font-size: 4rem;
   color: rgb(200,200,200);
+  font-family: open inherit;
 }
 
 /* Slider */
@@ -417,8 +436,9 @@ form .button {
 
 .slider-item p {
   text-align: justify;
-  font-family: 'Playfair Display';
+  font-family: 'Cuprum', sans-serif;
   font-size: 1.5rem;
+  color: rgb(90, 90, 90);
 }
 
 
