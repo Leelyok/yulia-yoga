@@ -385,11 +385,41 @@ li {
 .flex-flip:nth-child(2n){  
     flex-direction: row-reverse; 
 }
-
+/*
 [class*="_sm-12"] > [class*="col-"], [class*="_sm-12"] > [class*="col_"], [class*="_sm-12"] > [class~="col"] {
   max-width: 100%;
-}
+} */
   
+
+/*  dropdown menu*/
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+ }
+.dropdown-title {
+  padding: 0.35rem 0.5rem;
+  display: inline-block;
+ }
+.dropdown-content {
+  position: absolute;
+  top: 100%;
+  left: 1rem;
+  padding: 0.5rem;
+  display: none;
+  background-color: white;
+  z-index: 2;
+  text-align: left;
+  min-width: 10rem;
+ }
+.dropdown:hover .dropdown-content {
+  display: block;
+ }
+.dropdown-content a {
+  display: block;
+ }
+
+
 /*  Contact form */
 
 input {
