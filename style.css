@@ -546,7 +546,9 @@ form .button {
     min-height: 70vh;
     max-width: 65%;
   }
-  h1 { font-size: 2.5rem;}
+  h1 { font-size: 2rem;}
+  h2 { font-size: 1.5rem;}
+  .emphasis {    font-size: 1rem;  }
 }
 
 /*  Gridlex small media query - Max 768 px _sm*/
