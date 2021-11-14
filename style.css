@@ -77,6 +77,7 @@ img { max-width: 100%;}
 .text-light { color: white; } 
 .text-featured { color: #f9d0a1;}
 .text-dark  {  color: #183039;}
+.text-0  {  color: #fcfcfc;}
 
 .emphasis {
   font-size: 1.5rem;
