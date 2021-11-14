@@ -568,7 +568,10 @@ form .button {
   }
   h1 { font-size: 2rem;}
   h2 { font-size: 1.5rem;}
-  .emphasis {    font-size: 1rem;  }
+  .emphasis { 
+    font-size: 1.5rem;
+    text-align: center;
+    }
 }
 
 /*  Gridlex small media query - Max 768 px _sm*/
@@ -587,6 +590,13 @@ form .button {
     header img {   max-width: 65%;}
     .sm-tall-70 {  
       min-height: 70vh;}
+
+    .banner {
+      min-height: 55vh;
+    }
+    .moon-set img {
+      max-width: 100%;
+    }
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/
@@ -597,6 +607,9 @@ form .button {
     .text-sm { font-size: 1rem;  }
 
     .slider-item p { font-size: 1.1rem  }
+    .emphasis { 
+      font-size: 1.2rem;
+    }
 }
 
 /*  Gridlex XXS media query - Max 400 px _xxs*/
