@@ -71,8 +71,8 @@ img { max-width: 100%;}
 }
 
 
-.bg-light    { background-color: #f3eeea;}
-.bg-beige    { background-color: #e6d9d0;}
+.bg-light    { background-color: #fcfcfc;}
+.bg-light2    { background-color: #f2f2f2;}
 .bg-featured { background-color: #018ca2;  }
 .bg-dark     { background-color: #24282B;  }
 
@@ -81,7 +81,8 @@ img { max-width: 100%;}
 .text-dark  {  color: #183039;}
 
 .emphasis {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  line-height: 1.2;
 }
 
 
@@ -192,8 +193,8 @@ header {
 }
 
 header img {
-  max-width: 25%;
-}
+  max-width: 50%;
+} 
 
 footer a:hover {
   background-color: #ffffff;
@@ -357,7 +358,7 @@ li {
     background-color: rgb(235,235,235);
     background-size: cover;
     background-position: center;
-    min-height: 80vh;
+    min-height: 100vh;
 }
 
 .shape-teardrop {
