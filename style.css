@@ -46,6 +46,20 @@ img { max-width: 100%;}
   padding-top: 5%;
 }
 
+.padded-t-0 {
+  padding-top: 0;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 5%;
+}
+
+.padded-t-7 {
+  padding-top: 7%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
 
@@ -139,6 +153,10 @@ li {
   padding-left: 0.5rem;
   line-height: 1.1;
 }
+
+li {
+  list-style-type: none; /* Убираем маркеры */
+ }   
 
 h1:last-child,
 h2:last-child,
