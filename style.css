@@ -608,7 +608,7 @@ form .button {
     .text-sm { font-size: 1.5rem;  }
     .margin-t-neg { margin-top: 0;}
     h3 { font-size: 1.5rem;}
-    p {
+    p, li {
       line-height: 1.2;
       font-size: 1rem; }
 
