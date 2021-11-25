@@ -35,8 +35,12 @@ img { max-width: 100%;}
 
 .padded    { padding: 5%;    }
 .padded-0   { padding: 0;    }
+.padded-05 { padding: 0.5rem;}
 .padded-5  { padding: 5rem;}
 .padded-2p  {padding: 2%;   }
+.padded-10   { padding: 10%;    }
+
+.padded-20   { padding: 20%;    }
 
 .padded-tb {
   padding-top: 5%;
@@ -429,6 +433,30 @@ li {
   display: block;
  }
 
+/* Card Styles  */
+
+
+.card {
+  padding-top: 1.5rem;
+  color: rgb(65,60,60);
+  border-radius: 5px;
+}
+
+.card:hover {
+  box-shadow: 0 20px 25px -5px rgba(0,0,0,.2),0 10px 10px -5px rgba(0,0,0,.2);
+}
+
+.card h3 {
+  font-size: 1.8rem;
+}
+
+/*.card img {
+  margin-top: -2.5rem;
+}
+*/
+
+
+
 
 /*  Contact form */
 
@@ -634,6 +662,22 @@ form .button {
     .slider-item p { font-size: 1.1rem  }
     .emphasis { 
       font-size: 1.2rem;
+    }
+
+    .horizontal-scroll {
+      overflow-x: auto;
+      flex-wrap: nowrap;
+      padding-left: 1rem;
+      padding-right: 1rem;
+      padding-bottom: 7%;
+    }
+    /*.card img {
+      margin-top: -25%;
+    }
+    */
+    .mob-padded-0 {
+      padding-left: 0;
+      padding-right: 0;
     }
 }
 
