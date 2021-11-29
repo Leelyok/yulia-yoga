@@ -64,6 +64,13 @@ img { max-width: 100%;}
   padding-right: 5%;
 }
 
+.padded-t-13 {
+  padding-top: 13%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
 
@@ -100,6 +107,12 @@ img { max-width: 100%;}
 .emphasis {
   font-size: 1.5rem;
   line-height: 1.2;
+}
+
+.copyright {
+  font-size: 1.5rem;
+  line-height: 1.2;
+  text-align: right;
 }
 
 
@@ -179,6 +192,7 @@ p:last-child {
 .text-bold { font-weight: bold;}
 
 .text-xs   {  font-size: 1rem;}
+.text-xxs   {  font-size: 0.8rem;}
 .text-sm   {  font-size: 2rem;}
 
 
@@ -529,6 +543,12 @@ form .button {
   font-family: open inherit;
 }
 
+.quote-icon2 {
+  font-size: 2rem;
+  color: rgb(200,200,200);
+  font-family: inherit;
+}
+
 /* Slider */
 .testimonial-slider-container {
   padding: 5%;
@@ -621,9 +641,13 @@ form .button {
     font-size: 1.5rem;
     text-align: center;
     }
-    .bg-yulia {
+  .bg-yulia {
       margin-left: 0;
       margin-right: 0;
+    }
+  .copyright {
+      font-size: 1.1rem;
+      text-align: right;
     }
 }
 
