@@ -698,6 +698,7 @@ form .button {
     .moon-set img {
       max-width: 100%;
     }
+    .small-footer {   font-size: .5rem;    }
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/
