@@ -294,6 +294,15 @@ footer a:hover {
     transition: all 0.1s;
 }
 
+.button-b {
+  color: inherit;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border-bottom: 1px solid;
+  transition: all 0.1s;
+}
+
 .button:hover {
   background-color: #cccccc;
 }
