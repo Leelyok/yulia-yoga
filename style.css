@@ -409,7 +409,7 @@ li {
 .banner {
     background-size: cover;
     background-position: center;
-    min-height: 100vh;
+    min-height: 75vh;
 }
 
 .shape-teardrop {
@@ -682,6 +682,8 @@ form .button {
       font-size: 1.1rem;
       text-align: right;
     }
+
+    .banner {    min-height: 45vh;  }
 }
 
 /*  Gridlex small media query - Max 768 px _sm*/
@@ -701,9 +703,7 @@ form .button {
     .sm-tall-70 {  
       min-height: 70vh;}
 
-    .banner {
-      min-height: 55vh;
-    }
+    .banner {   min-height: 50vh;  }
     .moon-set img {
       max-width: 100%;
     }
@@ -737,6 +737,8 @@ form .button {
       padding-left: 0;
       padding-right: 0;
     }
+
+    .banner {  min-height: 55vh;   }
 }
 
 /*  Gridlex XXS media query - Max 400 px _xxs*/
