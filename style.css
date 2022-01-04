@@ -409,7 +409,13 @@ li {
 .banner {
     background-size: cover;
     background-position: center;
-    min-height: 68vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+   /* min-height: 75vh;
+    flex-basis: 40%;
+    max-width: 100%;
+    */
 }
 
 .shape-teardrop {
