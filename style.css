@@ -661,7 +661,7 @@ form .button {
 @media (max-width: 80em)	Max 1280px	_lg-*  */
 
 @media (max-width: 1465px)  {
-  .banner { min-height: 50vh; }
+  .banner { min-height: 38vh; }
 }
 
 @media (max-width: 64em) {
