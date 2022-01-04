@@ -660,6 +660,10 @@ form .button {
 @media (max-width: 64em)	Max 1024px	_md-*
 @media (max-width: 80em)	Max 1280px	_lg-*  */
 
+@media (max-width: 1465px)  {
+  .banner { min-height: 50vh; }
+}
+
 @media (max-width: 64em) {
   .show-md { display: block; }
   .hide-md { display: none;  }
