@@ -20,6 +20,12 @@ img { max-width: 100%;}
   max-width: 40%;
 }
 
+.about-img {
+  object-fit: cover;
+  object-position: center;
+  width: 490px;
+  height: 600px;
+}
 
 
 
