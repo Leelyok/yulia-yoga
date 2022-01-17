@@ -514,14 +514,6 @@ li {
   align-items: center;
 }
 
-.about-img {
-  object-fit: cover;
-  object-position: center;
-  width: 500px;
-  height: 600px;
-}
-
-
 
 /*
 [class*="_sm-12"] > [class*="col-"], [class*="_sm-12"] > [class*="col_"], [class*="_sm-12"] > [class~="col"] {
