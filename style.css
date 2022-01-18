@@ -830,6 +830,8 @@ form .button {
     }
 
     .banner {    min-height: 45vh;  }
+
+    .padded-10   { padding: 5%;    }
 }
 
 /*  Gridlex small media query - Max 768 px _sm*/
