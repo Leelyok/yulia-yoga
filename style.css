@@ -47,6 +47,7 @@ img { max-width: 100%;}
 .padded-05 { padding: 0.5rem;}
 .padded-5  { padding: 5rem;}
 .padded-2p  {padding: 2%;   }
+.padded-4p  {padding: 4%;   }
 .padded-10   { padding: 10%;    }
 
 .padded-20   { padding: 20%;    }
@@ -56,7 +57,7 @@ img { max-width: 100%;}
   padding-bottom: 5%;
 }
 
-.padded-tb-0 {
+.padded-10lr {
   padding-right: 10%;
   padding-left: 10%;
 }
@@ -160,7 +161,7 @@ img { max-width: 100%;}
 .bg-light2    { background-color: #f2f2f2;}
 .bg-featured { background-color: #018ca2;  }
 .bg-dark     { background-color: #24282B;  }
-.bg-darker     { background-color: #2a201e;  }
+.bg-darker     { background-color: #bf9098; }
 
 .text-light { color: white; } 
 .text-featured { color: #f9d0a1;}
@@ -357,6 +358,16 @@ footer a:hover {
     transition: all 0.1s;
 }
 
+.button1 {
+  color: inherit;
+  border-radius: 1rem;
+  text-decoration: none;
+  display: inline-block;
+  padding: 1rem 2rem;
+  border: 1px solid;
+  transition: all 0.1s;
+}
+
 .button-b {
   color: inherit;
   text-decoration: none;
@@ -378,6 +389,11 @@ footer a:hover {
 }
 
 .button:hover {
+  background-color: #fff;
+  color: #bf9098;
+}
+
+.button1:hover {
   background-color: #cccccc;
   color: #fff;
 }
@@ -851,6 +867,11 @@ form .button {
       padding-right: 10%;
       padding-left: 10%;
     }
+
+    .padded-10lr {
+      padding-right: 5%;
+      padding-left: 5%;
+    }
 }
 
 /*  Gridlex small media query - Max 768 px _sm*/
@@ -881,6 +902,11 @@ form .button {
     .padded-lr-20 {
       padding-right: 3%;
       padding-left: 3%;
+    }
+
+    .padded-10lr {
+      padding-right: 2%;
+      padding-left: 2%;
     }
 }
 
