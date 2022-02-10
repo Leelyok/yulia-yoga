@@ -160,6 +160,7 @@ img { max-width: 100%;}
 .bg-light2    { background-color: #f2f2f2;}
 .bg-featured { background-color: #018ca2;  }
 .bg-dark     { background-color: #24282B;  }
+.bg-darker     { background-color: #2a201e;  }
 
 .text-light { color: white; } 
 .text-featured { color: #f9d0a1;}
@@ -890,7 +891,7 @@ form .button {
     .text-lg { font-size: 2.5rem;}
     .text-sm { font-size: 1rem;  }
 
-    h3 { font-size: 1.2rem;}
+    /*h3 { font-size: 1.2rem;}*/
 
     .slider-item p { font-size: 1.1rem  }
     .emphasis { 
