@@ -41,6 +41,9 @@ img { max-width: 100%;}
 
 .padded    { padding: 5%;    }
 .padded-0   { padding: 0;    }
+.padded-tb0   { 
+  padding-top: 0;
+  padding-bottom: 0 ;    }
 .padded-05 { padding: 0.5rem;}
 .padded-5  { padding: 5rem;}
 .padded-2p  {padding: 2%;   }
@@ -52,6 +55,17 @@ img { max-width: 100%;}
   padding-top: 5%;
   padding-bottom: 5%;
 }
+
+.padded-tb-0 {
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+.padded-lr-20 {
+  padding-right: 20%;
+  padding-left: 20%;
+}
+
 .padded-t {
   padding-top: 5%;
 }
@@ -832,6 +846,10 @@ form .button {
     .banner {    min-height: 45vh;  }
 
     .padded-10   { padding: 5%;    }
+    .padded-lr-20 {
+      padding-right: 10%;
+      padding-left: 10%;
+    }
 }
 
 /*  Gridlex small media query - Max 768 px _sm*/
@@ -858,6 +876,11 @@ form .button {
       max-width: 100%;
     }
     .small-footer {   font-size: .5rem;    }
+    .padded-10   { padding: 2%;    }
+    .padded-lr-20 {
+      padding-right: 3%;
+      padding-left: 3%;
+    }
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/
