@@ -92,6 +92,13 @@ img { max-width: 100%;}
   padding-right: 5%;
 }
 
+.padded-t-20 {
+  padding-top: 20%;
+  padding-bottom: 5%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
 
