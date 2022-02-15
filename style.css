@@ -99,6 +99,8 @@ img { max-width: 100%;}
   padding-right: 5%;
 }
 
+.padded-b-0   {   padding-bottom: 0 ;    }
+
 .padded-1,
 .grid.padded-1  { padding: 1rem;  }
 
