@@ -931,6 +931,7 @@ form .button {
     .text-xl { font-size: 2.5rem;}
     .text-lg { font-size: 2.5rem;}
     .text-sm { font-size: 1rem;  }
+    .text-xxs   {  font-size: 0.7rem;}
 
     /*h3 { font-size: 1.2rem;}*/
 
