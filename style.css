@@ -537,6 +537,18 @@ li {
     */
 }
 
+.banner1 {
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+ /* min-height: 75vh;
+  flex-basis: 40%;
+  max-width: 100%;
+  */
+}
+
 .shape-teardrop {
     border-radius: 20rem;
     border-bottom-right-radius: 0;
@@ -860,6 +872,8 @@ form .button {
   .banner { min-height: 38vh; }
 }
 
+.banner1 { min-height: 38vh; }
+
 @media (max-width: 64em) {
   .show-md { display: block; }
   .hide-md { display: none;  }
@@ -921,7 +935,7 @@ form .button {
       max-width: 100%;
     }
     .small-footer {   font-size: .5rem;    }
-    .padded-10   { padding: 2%;    }
+    .padded-10   { padding: 5%;    }
     .padded-lr-20 {
       padding-right: 3%;
       padding-left: 3%;
