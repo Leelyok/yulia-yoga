@@ -198,10 +198,29 @@ img { max-width: 100%;}
 .left   { text-align: left; }
 .center { text-align: center; }
 .right  { text-align: right; }
-
+.justify {  text-align: justify;}
 .flex {
   display: flex;
   align-items: center;
+}
+
+.italics {
+  font-style: italic;
+}
+
+.quote1 {
+  font-size: 3rem;
+  font-family: 'Playfair Display SC', serif;
+  text-transform: none;
+  line-height: 0.9;
+}
+
+.subtitle {
+  text-transform: uppercase;
+  font-size: 18pt;
+  color: black;
+  letter-spacing: 0.1rem;
+  font-weight: 400;
 }
 
 .moon-set img {
@@ -371,6 +390,7 @@ footer a:hover {
     padding: 1rem 2rem;
     border: 1px solid;
     transition: all 0.1s;
+    width: 100%;
 }
 
 .button1 {
@@ -947,6 +967,16 @@ form .button {
     }
 
     .text-xs {    font-size: 0.8rem;    }
+    .quote1 {
+      font-size: 2rem;
+      text-transform: none;
+      line-height: 0.9;
+    }
+
+    .subtitle {
+      text-transform: uppercase;
+      font-size: 15pt;
+    }
 }
 
 /*  Gridlex extra small media query - Max 576 px _xs*/

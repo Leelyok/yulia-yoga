@@ -38,7 +38,7 @@ $('.slider-container').slick({
   });
   
   $(".testimonial-slider-container").slick({
-      autoplay: true,
+      autoplay: false,
       autoplaySpeed: 2e3,
       speed: 500,
       arrows: true,
