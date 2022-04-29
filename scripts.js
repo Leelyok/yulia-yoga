@@ -1,5 +1,4 @@
 // Document . ready
-// Document . ready
 $(document).ready(function() {
 
   $(".menu-mobile").click(function(){
