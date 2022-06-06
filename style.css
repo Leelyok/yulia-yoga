@@ -305,7 +305,6 @@ a {
 
 a:hover {
   color: #4d4d4d;
-  border: none;
 }
 
 nav a {
@@ -700,6 +699,15 @@ li {
   align-items: center;
 }
 
+.capped-width-narrow {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.capped-width-v-narrow {
+  max-width:800px;
+  margin:auto
+ }
 
 /*
 [class*="_sm-12"] > [class*="col-"], [class*="_sm-12"] > [class*="col_"], [class*="_sm-12"] > [class~="col"] {

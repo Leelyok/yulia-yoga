@@ -1,10 +1,13 @@
 ---
 layout: default
+button1: false
+button2: false
+link: https://buy.stripe.com/fZe4jDfwK7yj5BC00a
 ---
 
 <!-----Course info-->
-<section class="grid-center padded bg-light" id="course">
-  <div class="col-7_md-10_sm-12 center editable">
+<section class="capped-width-narrow padded bg-light" id="course">
+  <div class="center editable">
       <h3>Блок йога практик<br />ЧАКРА-йога</h3>
       <p class="padded-2p">┈───ᗊ───┈</p>
       <p><em> Блок практик ЧАКРА-йога доступен только для учеников студии, прошедших все предыдущие блоки </em></p>
@@ -23,15 +26,22 @@ layout: default
       </ul>
   </div>   
 
+  {% if page.button1 == true %}
+  <div class="center">
+    <a class="button-dark" href="{{page.link}}" target="_blank"> Присоединиться </a>
+  </div>
+
+  {% endif %}
+
 
 <!--  Intro section  -->
   
-  <div class="col-7_md-10_sm-12 center editable">
+  <div class="center editable">
       <p class="padded-2p">┈───ᗊ───┈</p>
       <h3>7 йога практик в записи продолжительностью 80 минут</h3>
   </div>
 
-  <div class="col-12 center editable">
+  <div class="center editable">
       <div>
           <ul>
               <li>- Пробуждение энергетического тела на еще более глубоком уровне</li>
@@ -42,22 +52,21 @@ layout: default
               <li>- Изменение курса событийности жизни, освобождение от ситуаций &ldquo;замкнутый круг&rdquo; и движение за его пределы</li>
           </ul>
       </div>
-  </div>
-  <p class="padded-2p"> ┈───ᗊ───┈ </p>
- 
+      <p class="padded-2p"> ┈───ᗊ───┈ </p>
+  </div> 
 
 <!-------Structure classes-->
 
- <div class="col-12 center editable">
+ <div class="center editable">
      <h3>Структура классов:</h3>
  </div>
 
-   <div class="col-12 center editable">
+   <div class="center editable">
        <h3 class="padded-t-7 padded-b-0">Практика 1</h3>
        <h3 class="emphasis">Чакра 1 Муладхара (право быть, иметь)</h3>
        <p class="emphasis"><em>Дисбаланс:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Частые страхи, сомнения и беспокойства</li>
                <li>- Чувство одиночества и незащищенности</li>
                <li>- Проблемы с финансами</li>
@@ -66,7 +75,7 @@ layout: default
        </div>
        <p class="emphasis"><em>Отражение в теле:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Органы нижнего таза</li>
                <li>- Ноги</li>
                <li>- Проблемы с весом</li>
@@ -74,7 +83,7 @@ layout: default
            </ul>
        </div>
        <div class="grid-center">
-           <div class="col-4_md-10_sm-12-middle">
+           <div class="col-6_md-10_sm-12-middle">
                <h3 class="emphasis"><em>Медитация:</em></h3>
                <p class="left">Соединение с энергией Земли для исцеления 1 чакры</p>
            </div>
@@ -83,7 +92,7 @@ layout: default
        <h3 class="emphasis">Чакра 2 Свахистхана (право чувствовать, хотеть)</h3>
        <p class="emphasis"><em>Дисбаланс:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Частое чувство вины</li>
                <li>- Отсутсвие понимания своих талантов, своей миссии жизни</li>
                <li>- Нераскрытый творческий потенциал</li>
@@ -93,7 +102,7 @@ layout: default
        </div>
        <p class="emphasis"><em>Отражение в теле:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Репродуктивные органы</li>
                <li>- Женский цикл</li>
                <li>- Мочеиспускательная система</li>
@@ -101,7 +110,7 @@ layout: default
            </ul>
        </div>
        <div class="grid-center">
-           <div class="col-4_md-10_sm-12-middle">
+           <div class="col-6_md-10_sm-12-middle">
                <h3 class="emphasis"><em>Медитация:</em></h3>
                <p class="left">Очищение элемента воды тела для соединения с интуицией и креативным потенциалом</p>
            </div>
@@ -110,7 +119,7 @@ layout: default
        <h3 class="emphasis">Чакра 3 Манипура (право действовать, достигать)</h3>
        <p class="emphasis"><em>Дисбаланс:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Чувство стыда, страх быть увиденным с действии</li>
                <li>- Отсутсвие силы воли, движения к поставленной цели</li>
                <li>- Отсутсвует ощущение собственной значимости</li>
@@ -120,7 +129,7 @@ layout: default
        </div>
        <p class="emphasis"><em>Отражение в теле:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Пищеварительная система</li>
                <li>- Печень</li>
                <li>- Желудок</li>
@@ -128,7 +137,7 @@ layout: default
            </ul>
        </div>
        <div class="grid-center">
-           <div class="col-4_md-10_sm-12-middle">
+           <div class="col-6_md-10_sm-12-middle">
                <h3 class="emphasis"><em>Медитация:</em></h3>
                <p class="left">Регуляция внутреннего огня путем соединения с энергией солнца</p>
            </div>
@@ -137,7 +146,7 @@ layout: default
        <h3 class="emphasis">Чакра 4 Анахата (право любить, быть любимым)</h3>
        <p class="emphasis"><em>Дисбаланс:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Невозможность радоваться жизни безусловно, жить в моменте</li>
                <li>- Неумение любить (отдавать) и/или быть любимым (принимать)</li>
                <li>- Нелюбовь к себе, старание угодить другим в ущерб себе</li>
@@ -148,7 +157,7 @@ layout: default
        </div>
        <p class="emphasis"><em>Отражение в теле:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Сердце</li>
                <li>- Легкие / дыхание</li>
                <li>- Иммунитет</li>
@@ -156,7 +165,7 @@ layout: default
            </ul>
        </div>
        <div class="grid-center">
-           <div class="col-4_md-10_sm-12-middle">
+           <div class="col-6_md-10_sm-12-middle">
                <h3 class="emphasis"><em>Медитация:</em></h3>
                <p class="left">Возвращение домой (сердце - врата к божественному)</p>
            </div>
@@ -165,7 +174,7 @@ layout: default
        <h3 class="emphasis">Чакра 5 Вишудха (право голоса, быть услышанным)</h3>
        <p class="emphasis"><em>Дисбаланс:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Страх выражения своих мыслей, идей</li>
                <li>- Отсутсвие ощущения себя авторитетом / экспертом</li>
                <li>- Чувства стыда при объявлении о своих талантах</li>
@@ -175,7 +184,7 @@ layout: default
        </div>
        <p class="emphasis"><em>Отражение в теле:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Горло</li>
                <li>- Уши</li>
                <li>- Голосовые связки</li>
@@ -183,7 +192,7 @@ layout: default
            </ul>
        </div>
        <div class="grid-center">
-           <div class="col-4_md-10_sm-12-middle">
+           <div class="col-6_md-10_sm-12-middle">
                <h3 class="emphasis"><em>Медитация:</em></h3>
                <p class="left">Раскрытие энергетического канала для свободного проявления божественной миссии</p>
            </div>
@@ -192,7 +201,7 @@ layout: default
        <h3 class="emphasis">Чакра 6 Ажна (право видеть)</h3>
        <p class="emphasis"><em>Дисбаланс:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Слабая связь с интуицией</li>
                <li>- Отсутсвие вдохновения</li>
                <li>- Отсутсвие ясности сознания, понимания вселенской мудрости</li>
@@ -202,14 +211,14 @@ layout: default
        </div>
        <p class="emphasis"><em>Отражение в теле:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Головные боли</li>
                <li>- Бессоница</li>
                <li>- Алкогольная и наркозависимость</li>
            </ul>
        </div>
        <div class="grid-center">
-           <div class="col-4_md-10_sm-12-middle">
+           <div class="col-6_md-10_sm-12-middle">
                <h3 class="emphasis"><em>Медитация:</em></h3>
                <p class="left">Активация интуиции путем открытия третьего глаза</p>
            </div>
@@ -218,7 +227,7 @@ layout: default
        <h3 class="emphasis">Чакра 7 Сахасрара (право знать)</h3>
        <p class="emphasis"><em>Дисбаланс:</em></p>
        <div class="grid-center">
-           <ul class="col-4_md-10_sm-12-middle left">
+           <ul class="col-6_md-10_sm-12-middle left">
                <li>- Недоверие миру / Вселенной / Богу / ангелам</li>
                <li>- Нет стремления к духовному развитию</li>
                <li>- Чувство одиночества / обреченности</li>
@@ -226,13 +235,13 @@ layout: default
            </ul>
        </div>
        <div class="grid-center">
-           <div class="col-4_md-10_sm-12-middle">
+           <div class="col-6_md-10_sm-12-middle">
                <h3 class="emphasis"><em>Отражение в теле:</em></h3>
                <p class="left">Не имеет связи с физическим телом</p>
            </div>
        </div>
        <div class="grid-center">
-           <div class="col-4_md-10_sm-12-middle">
+           <div class="col-6_md-10_sm-12-middle">
                <h3 class="emphasis"><em>Медитация:</em></h3>
                <p class="left">Попытка единения с первоистоком</p>
            </div>
@@ -243,11 +252,15 @@ layout: default
        <p class="padded-2p">┈───ᗊ───┈</p>
    </div>
 
-   <div class="col-7_md-10_sm-12 grid-center center editable">
-       <div class="col-10">
-           <!---- 
+   <div class="center editable">
+       <div class="padded">
+
+        {% if page.button2 == true %}
+           
               <p>Стоимость блока из 7 практик: 5 250 ₽</p>
-               <a class="button margin-tb3" href="https://buy.stripe.com/fZe4jDfwK7yj5BC00a" target="_blank"> Присоединиться </a> <br> ---->
+               <a class="button-dark margin-tb3" href="{{page.link}}" target="_blank"> Присоединиться </a> <br> 
+        {% endif %}
+
            <h4 class="button-b"><a href="praktika-na-russkom">&larr; Назад </a></h4>
        </div>
    </div> 
