@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Блок йога практик ОСНОВЫ
+button1: false
+button2: false
+link: https://buy.stripe.com/9AQaI198m8Cn9RSdR6
+text-button: Стоимость блока из 7 практик - AUD 105
 ---
 
 <!-----Course info-->
@@ -27,6 +31,12 @@ title: Блок йога практик ОСНОВЫ
        <p class="padded-2p"> ┈───ᗊ───┈ </p>
  
  
+       {% if page.button1 == true %}
+       <div class="center">
+         <a class="button-dark" href="{{page.link}}" target="_blank"> Присоединиться </a>
+       </div>
+     
+       {% endif %}
  <!--  Intro section  -->
    
    <div class="col-12 center editable">
@@ -75,13 +85,14 @@ title: Блок йога практик ОСНОВЫ
         <p class="padded-2p">┈───ᗊ───┈</p>
     </div>
 
+    {% if page.button2 == true %}
+       <div class="padded">
+           <p>{{page.text-button}}</p><a class="button-dark margin-tb3" target="_blank" href="{{page.link}}">Присоединиться </a>
+       </div>
+    {% endif %}
+
     <div class="col-10_sm-12 grid-center center editable">
         <div class="col-10">
-            <!------
-                                    <p>Стоимость блока из 7 практик: 5 250 ₽</p>
-         
-                                 <a class="button margin-tb3" href="https://buy.stripe.com/7sI7vP0BQbOz0hi4gr" target="_blank"> Присоединиться </a> <br>
-                                 --->
             <h4 class="button-b"><a href="praktika-na-russkom">&larr; Назад </a></h4>
         </div>
     </div>

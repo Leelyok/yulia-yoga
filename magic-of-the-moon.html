@@ -1,6 +1,10 @@
 ---
 layout: default
 title: Блок йога практик Магия ЛУНЫ
+button1: false
+button2: false
+link: https://buy.stripe.com/9AQaI198m8Cn9RSdR6
+text-button: Стоимость блока из 7 практик - AUD 105
 ---
 
 <!-----Course info-->
@@ -25,9 +29,14 @@ title: Блок йога практик Магия ЛУНЫ
           <li>- Ты хочешь научиться манифестировать свои намерения и желания в реальность</li>
       </ul>
   </div>
-     <!-------------------------------
-      <a class="button" href="https://buy.stripe.com/4gw7vP5Waf0Lc00fZf" target="_blank"> Присоединиться </a>
-    --------------------------->
+
+  
+  {% if page.button1 == true %}
+  <div class="center">
+    <a class="button-dark" href="{{page.link}}" target="_blank"> Присоединиться </a>
+  </div>
+
+  {% endif %}
 
 
 <!--  Intro section  -->
@@ -78,16 +87,18 @@ title: Блок йога практик Магия ЛУНЫ
        <p>Практика: Погружение и интеграция работы этого блока<br />Теория: Роль сердечной чакры в работе с энергиями<br />Медитация: Активация энергии сердца и позволение на работу с чакрами</p>
        <p>&nbsp;</p>
        <p>&nbsp;</p>
-       <!---------------------
-              <p><em>Стоимость блока из 7 практик - AUD 105</em></p>
-              <p><a class="button" target="_blank" href="https://buy.stripe.com/4gw7vP5Waf0Lc00fZf">Присоединиться</a></p>
-              <p class="padded-2p">&nbsp;</p>
-              --------------------->
+
        <p class="padded-2p">┈───ᗊ───┈</p>
        <p>До встречи на коврике</p>
        <p>Юля</p>
        <p class="padded-2p">┈───ᗊ───┈</p>
    </div>
+
+   {% if page.button2 == true %}
+       <div class="padded">
+           <p>{{page.text-button}}</p><a class="button-dark margin-tb3" target="_blank" href="{{page.link}}">Присоединиться </a>
+       </div>
+    {% endif %}
 
    <div class="col-12 center padded editable">
        <h4 class="button-b"><a href="praktika-na-russkom">&larr; Назад </a></h4>
