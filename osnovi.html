@@ -28,16 +28,23 @@ text-button: Стоимость блока из 7 практик - 6 300 ₽
            <li>- Ты читаешь это и чувствуешь отклик внутри</li>
        </ul>
    </div>
-       <p class="padded-2p"> ┈───ᗊ───┈ </p>
- 
- 
-       {% if page.button1 == true %}
-       <div class="center">
-         <a class="button-dark" href="{{page.link}}" target="_blank"> Присоединиться </a>
+   <div class="grid-center">
+
+    <div class="col-12 center">
+        <p class="padded-2p"> ┈───ᗊ───┈ </p>
        </div>
+           
      
-       {% endif %}
- <!--  Intro section  -->
+     
+           {% if page.button1 == true %}
+           <div class=" col-12 center">
+             <a class="button-dark" href="{{page.link}}" target="_blank"> Присоединиться </a>
+           </div>
+         
+           {% endif %}
+     <!--  Intro section  -->
+   </div>
+
    
    <div class="col-12 center editable">
        <h3>7 йога практик в записи продолжительностью 80 минут</h3>
@@ -86,7 +93,7 @@ text-button: Стоимость блока из 7 практик - 6 300 ₽
     </div>
 
     {% if page.button2 == true %}
-       <div class="padded">
+       <div class="center padded">
            <p>{{page.text-button}}</p><a class="button-dark margin-tb3" target="_blank" href="{{page.link}}">Присоединиться </a>
        </div>
     {% endif %}
